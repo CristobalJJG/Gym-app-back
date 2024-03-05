@@ -1,4 +1,4 @@
-/.env
+.env
 .vercel
-/entrenamiento/__pycache__
-/app/__pycache__
+entrenamiento/__pycache__
+app/__pycache__
