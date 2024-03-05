@@ -28,9 +28,9 @@ STATICFILES_DIRS = (
 SECRET_KEY = 'django-insecure-+jc59=cdbw-3lfe#mc0h-!xb7cd1-obj2(j+7&t64vx=oh@yoy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.app.app', '.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1','back.cristobaljjg.com', 'gym-app-back-a0c488ff22d8.herokuapp.com']
 
 
 # Application definition
