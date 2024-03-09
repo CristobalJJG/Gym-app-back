@@ -142,6 +142,12 @@ CORS_ALLOWED_ORIGINS = [
     "https://gymapp.cristobaljjg.com",
     "http://localhost:8100",
 ]
+
+CORS_ORIGIN_WHITELIST = [
+    "https://gymapp.cristobaljjg.com",
+    "http://localhost:8100",
+]
+
 DEBUG = True
-CSRF_COOKIE_SECURE = True
-CSRF_COOKIE_HTTPONLY = True
+CSRF_COOKIE_SECURE = False
+CSRF_COOKIE_HTTPONLY = False
